@@ -1,0 +1,99 @@
+.Headers{
+    box-shadow: 0 2px 9px 0 #00000045;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+    background-color: #ffffff !important;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.HeadersMenu{
+    padding:20px;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+}
+.Headers .logo{
+    display: flex;
+    color:#000;
+    padding: 0 0 0 80px;
+}
+
+.Headers .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Headers button{
+    margin:5px
+}
+.hero{
+    position: relative;
+    
+}
+.heroContent{
+    position: absolute;
+    top:100px;
+    left: 100px;
+    color:aliceblue;
+    z-index:1;
+    font-size: 80px;
+     
+}
+.heroContent span{
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+}
+.CategoryButton{
+    margin-top: 30px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin-top: 80px;
+    display:grid;
+    grid-template-columns: repeat(4, 25%);
+    width:100%;
+    row-gap: 50px;
+    
+    
+}
+.card .childchild{
+    width: 100%;
+}
+
+.ProductCategory{
+    
+    font-size:20px;
+}
+.singleProduct{
+    margin-top: 40px;
+   
+}
+.singleProduct .productdes{
+    height: 100%;
+    display: flex;
+    align-items:center;
+}
+.singleProduct .productdes .Price{
+    font-size:30px;
+}
+.footer{
+    margin-top: 40px;
+    width:100%;
+    height:300px;
+    display:flex;
+    background-color:#00000089;
+    justify-content: center;
+    align-items: center;
+}
+
+            
